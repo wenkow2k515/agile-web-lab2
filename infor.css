@@ -1,0 +1,64 @@
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table, th, td {
+    border-style: solid;
+    border-color: red;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    padding: 3px 0px 3px 0px;
+}
+
+table{
+    width: 100%;
+    border-collapse: separate;
+}
+/*the hover of cell and line*/
+td:hover{
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    padding: 2px 0px 2px 0px;
+}
+
+tr:hover td{
+    background-color: gray;
+}
+/*the row part*/
+.Rank{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.country{
+    text-align: left;
+    background-color: white;
+    color:black;
+}
+
+.gold {
+    text-align: center;
+    background-color: gold;
+    color: black;
+}
+
+.silver {
+    text-align: center;
+    background-color: silver;
+    color: black;
+}
+
+.bronze {
+    text-align: center;
+    background-color: #cd7f32;
+    color: black;
+}
+
+.total {
+    text-align: center;
+    background-color: green;
+    color:black;
+}
